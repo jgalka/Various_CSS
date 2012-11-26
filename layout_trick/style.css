@@ -1,0 +1,112 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 62.5%;
+	font-family: Arial, Helvetica, sans-serif;
+	background: url(images/baner.png) repeat-x top #f5ecd4;
+}
+
+p{
+	font-size: 1.3em;
+	line-height: 1.4em;
+	margin-bottom: 0.8em;
+}
+
+a { color: #540000; text-decoration: none; }
+a:hover, a:active { text-decoration: underline; }
+
+h1 { font-size: 3.0em; margin-bottom: 0.8em }
+h2 { font-size: 2.0em; text-transform: Uppercase; margin-bottom: 0.8em;}
+h3 {
+	font-size: 1.6em;
+	text-transform: uppercase;
+	font-style: italic;
+	letter-spacing: 2px; 
+	background: #e9bc3d;
+	color: #5e0d04;
+	padding: 5px;
+	margin-bottom: 0.5em;
+	text-align: center;
+}
+	
+
+.clear {clear: both; }
+
+div#page-wrap {
+	width: 800px;
+	margin: 0 auto;
+}
+
+ul#nav {
+	height: 236px;
+
+	background: url(images/duzy_baner.png) no-repeat;
+	list-style: none;
+	padding-left: 125px;
+}
+	ul#nav li {
+		display: inline;
+		font-size: 1.3em;
+	}
+ul#nav li a{
+	display: block;
+	width: 113px;
+	float: left;
+	margin-top: 171px;
+	color: white;
+	padding-top: 2px;
+	font-weight: bold;
+	text-decoration: none;
+}
+ul#nav li a:hover, ul#nav li a:active {
+	color: yellow;
+}
+div#main-content {
+	padding-bottom: 50px;
+}
+div#main-content div#left-col {
+	float: left;
+	width: 510px;
+}
+div#main-content div#left-col div#quick-jumps {
+	width: 200px;
+	float: left;
+	margin-right: 15px;
+	background: url(images/pilot.png) bottom center no-repeat;
+	padding-bottom:110px;
+}
+div#main-content div#left-col div#quick-jumps p {
+				text-transform: uppercase;
+				font-weight: bold;
+				letter-spacing: 1px;
+				}
+
+div#main-content div#left-col div#quick-jumps p span {
+					color: #e9bc3d;
+				}
+div#main-content div#left-col div#quick-jumps a {
+	color: black;
+}
+div#main-content div#right-col {
+	float: right;
+	width: 260px;
+	border-top: 8px solid #540000;
+	padding-top: 15px;
+}
+div#main-content div#right-col p {
+	font-size: 1.1em;
+} 
+div#footer {
+	background: #560000;
+	color: white;
+	padding: 10px 0 10px 0;
+	text-transform: uppercase;
+	border-top: 2px solid red;
+	text-align:center;
+}
+
